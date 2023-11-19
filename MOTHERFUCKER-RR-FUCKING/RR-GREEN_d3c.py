@@ -189,7 +189,6 @@ def irfan():
 	runtxt('\n\x1b[0;91m This tool is Under maintenance break ')
 	runtxt('\n\x1b[0;91m So wait For Update ')
 
-plist = platform.uname()[2]
 basex = plist
 basex1 = basex.encode('ascii')
 basex2 = base64.b64encode(basex1)
